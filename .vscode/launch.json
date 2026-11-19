@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Roku: Debug TypeScript app",
+            "type": "brightscript",
+            "request": "launch",
+            "rootDir": "${workspaceFolder}/dist-build/pkg-dir",
+            "files": ["**/*"],
+            "sourceDirs": ["${workspaceFolder}/src"],
+            "preLaunchTask": "Roku SDK: build debug bundle",
+            "host": "192.168.0.200",
+            "password": "0000",
+            "waitForJsDebugger": true
+        }
+    ]
+}

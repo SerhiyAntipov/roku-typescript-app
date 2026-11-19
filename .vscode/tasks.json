@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Roku SDK: build debug bundle",
+            "type": "process",
+            "command": "pnpm.cmd",
+            "args": ["exec", "rk", "build", "--debug"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

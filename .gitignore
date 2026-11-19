@@ -5,6 +5,7 @@
 node_modules/
 
 # Build output and test reports
+out/
 dist/
 dist-dev/
 dist-build/
