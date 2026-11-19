@@ -13,7 +13,7 @@ const RokuTypescriptAppDescriptor: AnchorNodeDescriptor = {
 };
 
 const RokuTypescriptApp: AnchorNodeImplementation<typeof RokuTypescriptAppDescriptor> = () => {
-    const appTitle: string = "crazino-typeScript";
+    const appTitle: string = "roku-typescript-app";
     const appSubtitle: string = "Powered by Roku RSG 2.0";
     const [counter, setCounter] = createSignal(5);
 
@@ -39,7 +39,6 @@ const RokuTypescriptApp: AnchorNodeImplementation<typeof RokuTypescriptAppDescri
                 width={1920}
                 height={80}
             />
-
             <label
                 color="0x00FF00FF"
                 font="font:LargeSystemFont"
@@ -48,8 +47,6 @@ const RokuTypescriptApp: AnchorNodeImplementation<typeof RokuTypescriptAppDescri
                 width={1920}
                 height={80}
             />
-
-
             <buttonGroup
                 onButtonSelected={index => {
                     if (index === 0) {
